@@ -8,7 +8,7 @@ x-logging: &default-logging
 
 services:
   app:
-    build: ../Ongil-Server
+    image: ghcr.io/s-dung/ongil-server:latest
     restart: unless-stopped
     ports:
       - "8080:8080"
